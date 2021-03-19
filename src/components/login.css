@@ -1,0 +1,101 @@
+/* *{
+  padding-top: 65px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+  font-family: "Nunito", sans-serif;
+} */
+
+.body{
+    background-image: url("../img/food.jpg");
+    
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: -webkit-linear-gradient(left, #7579ff, #b224ef); */
+  font-family: "Nunito", sans-serif;
+}
+
+label {
+  display: block;
+  width: 310px;
+  margin-left: 140px;
+  /* text-align: center; */
+  color: black;
+}
+
+.mainBody {
+  /* display: flex; */
+  position: relative;
+  border-radius: 20px;
+  width: 580px;
+  padding: 30px 30px;
+  text-align: center;
+  justify-content: center; 
+  background-color: cornsilk;
+}
+
+ 
+
+ul > li
+{
+    list-style-type: none;
+}
+
+.pass{
+    margin-top: 15px  !important;
+}
+
+.div2{
+    background-color: #d5d3cb78;
+    margin-top: 60px;
+}
+.body2{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .google_signin{
+    background-color: #e7e2e1;
+    margin-left: 28%;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 3px;
+    height: 13px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 2px 15px 0px #c2bdbd;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+   .google_signin img{
+        /* border-radius: 42px; */
+        height: 25px;
+        width: 25px;
+        /* padding: 10px; */
+        /* background-color: #d3cec6; */
+    }
+
+    .google_signin h4{
+      margin-left: 10px;
+      font-weight: 400 !important;
+    }
+
+    .message {
+      font-style: italic;
+      font-size: 17px;
+      font-size: small;
+      color: red;
+  }
